@@ -2,7 +2,7 @@ import logo_footer from "../assets/logo_footer.png";
 function Footer() {
   return (
     <>
-      <div className="w-screen text-black text-lg flex flex-row gap-4">
+      <div className="max-w-screen text-black text-lg flex flex-row gap-4">
         <div className="w-screen pl-11">
           <img src={logo_footer} alt="Logo Under The Lens" className="pb-6 w-24" />
           <button className="btn bg-green-400 text-black rounded-lg text-2xl p-1">Get the free app</button>
