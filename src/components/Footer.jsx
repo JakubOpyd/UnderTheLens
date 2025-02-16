@@ -2,7 +2,7 @@ import logo_footer from "../assets/logo_footer.png";
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className="pt-8">
         <div className="max-w-screen text-black text-lg flex flex-row gap-4">
           <div className="w-screen pl-11">
             <img
